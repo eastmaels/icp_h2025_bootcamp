@@ -1,0 +1,14 @@
+{
+  "canisters": {
+    "h2025_wave3": {
+      "main": "src/main.mo",
+      "type": "motoko"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "--hide-warnings",
+      "packtool": "mops sources"
+    }
+  }
+}
